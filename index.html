@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investor Page List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1>Investor Page List</h1>
+            <button id="add-investor-btn">Add Investor</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="add-investor-form" class="add-investor-form hidden">
+            <input type="text" id="investor-name-input" placeholder="Enter investor name">
+            <input type="text" id="investor-info-input" placeholder="Enter investor info">
+            <button id="submit-investor-btn">Submit</button>
+        </div>
+        
+        <ul id="investor-list" class="card-container">
+            <!-- Investor items will be dynamically added here -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
